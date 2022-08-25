@@ -1,7 +1,13 @@
- 1. Clone repository
+## Installation
 
-    git clone --recursive git@github.com:henrotaym/media.trustup.io.git
+### Clone repository
 
- 2. Bootstrap projects
+```
+git clone --recursive git@github.com:henrotaym/media.trustup.io.git
+```
 
-    ./bootstrap.sh
+### Bootstrap projects
+
+```
+./bootstrap.sh
+```
