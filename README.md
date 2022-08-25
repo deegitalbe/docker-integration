@@ -3,7 +3,7 @@
 ### Clone repository
 
 ```
-git clone --recursive git@github.com:henrotaym/media.trustup.io.git
+git clone --recursive git@github.com:henrotaym/docker-integration.git
 ```
 
 ### Bootstrap projects
