@@ -1,0 +1,4 @@
+/microservices/*
+/proxy/*
+!/microservices/*.sh
+!/proxy/*.sh
