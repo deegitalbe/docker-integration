@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Cloning proxy repository
-git clone git@github.com:henrotaym/nginx-proxy.git .
+# Cloning repository
+../_private/clone_repos.sh git@github.com:henrotaym/nginx-proxy.git
 
-# Building proxy image
+# Building image
 docker-compose build
 
 # Starting

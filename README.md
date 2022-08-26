@@ -11,3 +11,15 @@ git clone git@github.com:henrotaym/docker-integration.git
 ```
 ./bootstrap.sh
 ```
+
+### Start projects
+
+```
+./start.sh
+```
+
+### Shutdown projects
+
+```
+./stop.sh
+```

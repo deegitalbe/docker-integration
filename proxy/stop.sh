@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Stopping proxy
+# Stopping container
 docker-compose down

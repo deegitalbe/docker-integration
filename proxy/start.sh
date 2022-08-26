@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Starting proxy container
+# Starting container
 docker-compose up -d

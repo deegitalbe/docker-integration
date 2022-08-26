@@ -11,6 +11,3 @@ docker network create -d bridge applications
 for d in */ ; do
     cd $d && ../../_private/bootstrap_sail.sh $1 && cd ../
 done
-
-# Starting
-./start.sh
