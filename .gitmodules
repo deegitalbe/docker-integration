@@ -1,9 +1,0 @@
-[submodule "proxy"]
-	path = proxy
-	url = git@github.com:henrotaym/nginx-proxy.git
-[submodule "microservices/messaging.trustup.io"]
-	path = microservices/messaging.trustup.io
-	url = git@github.com:henrotaym/messaging.trustup.io.git
-[submodule "microservices/media.trustup.io"]
-	path = microservices/media.trustup.io
-	url = git@github.com:henrotaym/media.trustup.io.git
