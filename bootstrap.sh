@@ -1,3 +1,7 @@
 #!/bin/bash
-cd microservices && ./bootstrap.sh && cd ../
+
+# Bootstrapping microservices
+cd microservices && ./bootstrap.sh $1 && cd ../
+
+# Bootstrapping proxy
 cd proxy && ./bootstrap.sh && cd ../
