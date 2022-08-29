@@ -9,14 +9,21 @@
 ### Clone repository
 
 ```
-git clone git@github.com:henrotaym/docker-integration.git && cd docker-integration
+git clone git@github.com:henrotaym/docker-integration.git
 ```
 
 ### Install your mkcert certificates
 
+Go to ssl certificates folder
+
 ```
-cd _/includes/ssl/certs \
-    && mkcert -key-file trustup.io.test.key \
+cd _includes\ssl\certs
+```
+
+Generate certificates
+
+```
+mkcert -key-file trustup.io.test.key \
         -cert-file trustup.io.test.crt \
         *.trustup.io.test trustup.io.test
 ```
