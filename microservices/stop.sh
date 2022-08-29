@@ -6,4 +6,4 @@ for d in */ ; do
 done
 
 # Removing applications network
-docker network rm applications
+../_includes/scripts/remove_network.sh

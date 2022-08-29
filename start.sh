@@ -4,4 +4,4 @@
 cd microservices && ./start.sh && cd ../
 
 # Starting proxy
-cd proxy && docker-compose up -d && cd ../
+cd _private/proxy && docker-compose up -d && cd ../../

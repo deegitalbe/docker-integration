@@ -1,3 +1,4 @@
 /microservices/*
 !/microservices/*.sh
-/proxy/
+/_private/*
+!/_private/*.sh

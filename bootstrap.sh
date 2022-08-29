@@ -1,10 +1,10 @@
 #!/bin/bash
 
+# Creating required network
+./_includes/scripts/create_network.sh
+
+# Bootstrapping private services
+cd _private && ./bootstrap.sh && cd ../
+
 # Bootstrapping microservices
 cd microservices && ./bootstrap.sh $1 && cd ../
-
-# Cloning proxy
-git clone git@github.com:henrotaym/nginx-proxy.git ./proxy
-
-# Building proxy image
-cd proxy && docker-compose build && cd ../

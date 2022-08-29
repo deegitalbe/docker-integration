@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Creating applications network
-docker network create -d bridge applications
+../_includes/scripts/create_network.sh
 
 # Starting microservices containers
 for d in */ ; do

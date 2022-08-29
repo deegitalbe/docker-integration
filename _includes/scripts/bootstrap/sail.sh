@@ -5,7 +5,7 @@ cp .env.docker .env
 
 # Add sensitive environment values from CDN
 echo >> .env
-curl https://environment.trustup.io.test:4000 -H "Authorization: Basic $1" >> .env
+curl https://environment.trustup.io.test >> .env
 
 # Install vendor dependencies
 docker run --rm \
