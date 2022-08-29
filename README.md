@@ -36,7 +36,7 @@ mkcert -key-file trustup.io.test.key \
 127.0.0.1      environment.trustup.io.test
 ```
 
-### Bootstrap projects
+### Clone projects
 
 Go back to repository root directory
 
@@ -44,7 +44,13 @@ Go back to repository root directory
 cd ../../../
 ```
 
-Run bootstrap script
+Run `clone.sh` script
+
+```
+./clone.sh
+```
+
+### Bootstrap projects
 
 ```
 ./bootstrap.sh
