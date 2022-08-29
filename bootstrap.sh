@@ -8,3 +8,6 @@ cd _private && ./bootstrap.sh && cd ../
 
 # Bootstrapping microservices
 cd microservices && ./bootstrap.sh $1 && cd ../
+
+# Stopping environment CDN
+cd _private/environment && docker-compose down
