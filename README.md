@@ -12,12 +12,12 @@
 git clone git@github.com:henrotaym/docker-integration.git
 ```
 
-### Install your mkcert certificates
+### Install your ssl certificates
 
 Go to ssl certificates folder
 
 ```
-cd _includes\ssl\certs
+cd _includes/ssl/certs
 ```
 
 Generate certificates
@@ -38,9 +38,21 @@ mkcert -key-file trustup.io.test.key \
 
 ### Bootstrap projects
 
+Go back to repository root directory
+
+```
+cd ../../../
+```
+
+Run bootstrap script
+
 ```
 ./bootstrap.sh
 ```
+
+## Available scripts
+
+These scripts should run from repository root directory
 
 ### Start projects
 
