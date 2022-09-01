@@ -17,3 +17,8 @@ docker run --rm \
 
 # Buil sail image from scratch
 ./vendor/bin/sail build --no-cache
+
+if [ test -f ./bootstrap.sh ]
+then
+    ./bootstrap.sh
+fi
