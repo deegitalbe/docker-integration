@@ -17,6 +17,3 @@ docker run --rm \
 
 # Buil sail image from scratch
 ./vendor/bin/sail build --no-cache
-
-# Building Database
-./vendor/bin/sail php artisan migrate
