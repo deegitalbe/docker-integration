@@ -6,7 +6,7 @@
 # Starting microservices containers
 for d in */ ; do
     cd $d
-    if [ test -f ./start.sh ]
+    if [ -f ./start.sh ];
     then
         ./start.sh
     else

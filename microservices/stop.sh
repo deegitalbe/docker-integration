@@ -3,7 +3,7 @@
 # Stopping microservices containers
 for d in */ ; do
     cd $d
-    if [ test -f ./stop.sh ]
+    if [ -f ./stop.sh ];
     then
         ./stop.sh
     else
