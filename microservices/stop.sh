@@ -11,6 +11,3 @@ for d in */ ; do
     fi
     cd ../
 done
-
-# Removing applications network
-../_includes/scripts/remove_network.sh
