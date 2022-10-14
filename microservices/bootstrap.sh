@@ -1,9 +1,16 @@
 #!/bin/bash
 
-# Bootstrapping sail & environment for each microservice.
+# Bootstrapping each microservice.
 for d in */ ; do
-    cd $d \
-        && ../../_includes/scripts/bootstrap/copy_env.sh \
-        && ../../_includes/scripts/bootstrap/sail.sh $1 \
-        && cd ../
+    # Copy environment
+    cd $d && ../../_includes/scripts/bootstrap/copy_env.sh
+    if [ "$d" == "websocket.trustup.io/" ]
+    then
+        # Build image using docker-compose
+        docker-compose build --no-cache
+    else
+        # Bootstrap sail
+        ../../_includes/scripts/bootstrap/sail.sh $1
+    fi
+    cd ../
 done
