@@ -16,7 +16,7 @@ cd standalone && ./bootstrap.sh && cd ../
 cd microservices && ./bootstrap.sh $1 && cd ../
 
 # Stopping environment CDN
-cd _private/environment && docker-compose down
+cd _private/environment && docker-compose down && cd ../../
 
 # Removing required network
 ./_includes/scripts/remove_network.sh
