@@ -5,3 +5,5 @@
     git@github.com:henrotaym/messaging.trustup.io.git \
     git@github.com:henrotaym/task.trustup.io.git \
     git@github.com:deegitalbe/websocket-trustup-io.git \
+    git@github.com:deegitalbe/changelog.trustup.io.git \
+    git@github.com:deegitalbe/ticketing.trustup.io.git \
