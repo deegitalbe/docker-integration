@@ -9,6 +9,8 @@ for d in */ ; do
         # Build image using docker-compose
         docker-compose build --no-cache
     else
+        # Copy certificates
+        ../../_includes/scripts/bootstrap/copy_certs.sh
         # Bootstrap sail
         ../../_includes/scripts/bootstrap/sail.sh $1
     fi
