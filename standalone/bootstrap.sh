@@ -4,4 +4,4 @@
 ../_includes/scripts/bootstrap/copy_env.sh
 
 # Building images
-docker-compose build --no-cache .
+docker-compose build --no-cache
