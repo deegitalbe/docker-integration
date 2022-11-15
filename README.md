@@ -25,7 +25,7 @@ Generate certificates
 ```
 mkcert -key-file trustup.io.test.key \
         -cert-file trustup.io.test.crt \
-        *.trustup.io.test trustup.io.test
+        \*.trustup.io.test trustup.io.test
 ```
 
 ### Add projects to your [hosts file](https://docs.rackspace.com/support/how-to/modify-your-hosts-file)
