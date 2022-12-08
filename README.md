@@ -38,6 +38,7 @@ mkcert -key-file trustup.io.test.key \
 127.0.0.1      changelog.trustup.io.test
 127.0.0.1      ticketing.trustup.io.test
 127.0.0.1      voip.trustup.io.test
+127.0.0.1      projects.trustup.io.test
 ```
 
 ### Clone projects
