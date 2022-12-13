@@ -16,5 +16,5 @@
 First relative path depends on your project location (nested twice here).
 
 ```shell
-../../_includes/scripts/bootstrap/copy_env.sh && ../../_includes/scripts/bootstrap/copy_certs.sh && ../../_includes/scripts/bootstrap/sail.sh && cd _private/environment && docker-compose down && cd ../../ && ./_includes/scripts/remove_network.sh
+../../_includes/scripts/bootstrap/copy_env.sh && ../../_includes/scripts/bootstrap/copy_certs.sh && ../../_includes/scripts/bootstrap/sail.sh && cd ../../_private/environment && docker-compose down && cd ../../ && ./_includes/scripts/remove_network.sh
 ```
