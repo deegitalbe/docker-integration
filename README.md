@@ -78,3 +78,12 @@ These scripts should run from repository root directory
 ```
 ./stop.sh
 ```
+
+### References
+
+#### Host file
+
+For mac
+```shell
+sudo nano /etc/hosts
+```
