@@ -5,13 +5,27 @@
 127.0.0.1      YOUR_PROJECT_URL
 ```
 
-## In root directory
+## Make sure you're up to date
+
+### In root directory
+Synchronize docker-integration
+```shell
+git fetch && git pull
+```
+
+Synchronize proxy
+```shell
+cd _private/proxy && git fetch && git pull && cd ../../
+```
+
+## Start bootstrapping your project
+### In root directory
 
 ```shell
 ./_includes/scripts/create_network.sh && cd _private/environment && docker-compose up -d && cd ../../
 ```
 
-## In project directory
+### In project directory
 
 First relative path depends on your project location (nested twice here).
 

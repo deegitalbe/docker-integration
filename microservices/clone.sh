@@ -11,4 +11,5 @@
     git@github.com:deegitalbe/trustup-io-projects.git \
     git@github.com:deegitalbe/trustup-io-sign.git \
     git@github.com:deegitalbe/trustup-io-account.git \ 
-    git@github.com:deegitalbe/trustup-io-roadmap.git
+    git@github.com:deegitalbe/trustup-io-roadmap.git \
+    git@github.com:deegitalbe/trustup-io-satisfaction.git
