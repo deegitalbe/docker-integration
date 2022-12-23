@@ -5,8 +5,7 @@
 127.0.0.1      YOUR_PROJECT_URL
 ```
 
-## Make sure you're up to date
-
+## Update your dev environment
 ### In root directory
 Synchronize docker-integration
 ```shell
@@ -18,7 +17,7 @@ Synchronize proxy
 cd _private/proxy && git fetch && git pull && cd ../../
 ```
 
-## Start bootstrapping your project
+## Bootstrap your project
 ### In root directory
 
 ```shell
