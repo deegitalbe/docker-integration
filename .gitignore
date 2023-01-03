@@ -2,3 +2,4 @@
 !/microservices/*.sh
 /_private/*
 !/_private/*.sh
+.DS_STORE
