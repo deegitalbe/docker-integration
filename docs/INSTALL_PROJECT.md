@@ -1,6 +1,5 @@
 # Installing a new project
 ##  Add project to your [hosts file](https://docs.rackspace.com/support/how-to/modify-your-hosts-file)
-
 ```shell
 127.0.0.1      YOUR_PROJECT_URL
 ```
